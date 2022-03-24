@@ -1,0 +1,36 @@
+.container-fluids {
+    height: 100vh;
+
+    .parent-div {
+        height: 100%;
+        padding: 50px 0px 0 50px;
+
+        .row {
+            display: flex;
+            border-bottom: 2px solid lightgray;
+            padding-bottom: 25px;
+            .thumb-and-game-detail {
+                .img-class {
+                    border-radius: 25px;
+                    margin-right: 25px;
+                    height: 180px;
+                }
+            }
+            .thumb-content {
+                color: grey;
+                font-size: 14px;
+                .title {
+                    font-size: 28px;
+                    padding-bottom: 10px;
+                    font-weight: bold;
+                    color: black;
+                }
+            }
+        }
+        .screenshots{
+            .screenshot-image{
+                padding: 0 10px;
+            }
+        }
+    }
+}
